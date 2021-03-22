@@ -1,0 +1,33 @@
+html, body {
+    background-color: #21232A;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+    font-size:15px
+}
+button {
+    font-size: 1rem;
+    background-color: rgb(225, 243, 239);
+    border: 2.0489px solid rgb(175, 175, 175);
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.contador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  border-radius: 20px;
+  background: radial-gradient(circle at 70%, rgb(32, 255, 236), rgb(55, 78, 75) 50%, rgb(39, 139, 123) 75%, rgb(164, 167, 168) 75%);
+  width: 500px;
+}
